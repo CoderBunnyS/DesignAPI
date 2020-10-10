@@ -36,7 +36,6 @@ footer {
     background-color: #E3C3E3;
     max-height: 0;
     border-radius: 25px;
-    min-height: 200px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     border: 1px solid black;
@@ -58,3 +57,20 @@ footer {
     justify-content: center;
     
 }
+.video {
+    border: 1px solid black;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+        
+    } 
+
+video {
+        border: 1px solid black;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        margin-left: 750px; 
+        padding-top: 25 px;   
+        
+        }
