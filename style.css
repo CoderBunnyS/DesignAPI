@@ -9,7 +9,12 @@ header {
     margin: 5px;
     
 }
-
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 footer {
     text-align: center;
 
@@ -32,12 +37,19 @@ footer {
     background-color: #31153B;
 }
 .panel {
-    padding: 0 18px;
+    padding: 0 50px;
     background-color: #E3C3E3;
     max-height: 0;
     border-radius: 25px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 20;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     
 }
 .accordion:after {
@@ -50,31 +62,24 @@ footer {
 .active:after {
     content: "\2796";
 }
-/* .personImage {
-    border: 1px solid black;
-    align-content: center;
+
+#randomPrint {
     display: flex;
+    align-content: center;
     justify-content: center;
+    align-items: center;
+    height: 200px;
     
-} */
-#randomJewelry {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
 }
-#randomImage {
+#mission {
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
-    height: 200px;
 }
-#randomSculpture {
+#information {
     display: flex;
     align-content: center;
     justify-content: center;
-    align-items: center;
-    height: 200px;
+    align-items: center;   
 }
